@@ -15,7 +15,7 @@ func receiver(name string){
 
 func main() {
 		fmt.Println("Hello!");
-		go receiver("name1")
-		go receiver("name2")
+		receiver("name1")
+		receiver("name2")
 
 }
